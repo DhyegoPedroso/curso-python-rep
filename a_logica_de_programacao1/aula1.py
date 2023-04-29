@@ -1,8 +1,8 @@
 """
 
-DocString = "isso não é um comentario"
+DocString = "isso não é um comentário"
 
-Usado para fazer comentarios com multi linhas
+Usado para fazer comentário com multi linhas
 
 """
 

@@ -9,7 +9,7 @@ x ou X - Hexadecimal
 > - Esquerda
 < - Direita
 ^ - Centro
-= - Forã o número a aparecer antes dos zeros
+= - Fora o número a aparecer antes dos zeros
 Sinal - + ou - 
 Ex.: 0>-100,.1f
 Conversion flags - !r !s !as 
