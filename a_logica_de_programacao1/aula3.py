@@ -1,7 +1,7 @@
 """
 
 Python = Linguagem de programação
-Tipo de tipagem = Dinamica / Forte
+Tipo de tipagem = Dinâmica / Forte
 str -> string -> texto
 Strings são textos que estão dentro de aspas
 
