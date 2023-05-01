@@ -4,8 +4,12 @@
     },
     "python.formatting.provider": "none",
     "cSpell.words": [
+        "dhyego",
         "Dhyego",
+        "numeros",
+        "operacao",
         "preco",
         "variavel"
-    ]
+    ],
+    "workbench.colorCustomizations": {},
 }

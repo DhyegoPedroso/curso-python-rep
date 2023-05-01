@@ -6,15 +6,15 @@ informe que não é um número inteiro.
 
 '''
 
-# numero = input('Digite um número: ')
+numero = input('Digite um número: ')
 
-# if numero.isdigit():
-#     if int(numero)  % 2 == 0:
-#         print(f'O número {numero} é par')
-#     else:
-#         print(f'O número {numero} é ímpar')
-# else:
-#     print('Você não digitou um número inteiro.')   
+if numero.isdigit():
+    if int(numero) % 2 == 0:
+        print(f'O número {numero} é par')
+    else:
+        print(f'O número {numero} é ímpar')
+else:
+    print('Você não digitou um número inteiro.')
 
 
 '''
@@ -25,21 +25,21 @@ Ex: Bom dia 0-11, Boa tarde 12-17 e Boa noite 18-23.
 
 '''
 
-# hora = input('Digite a hora em números inteiros: ')
+hora = input('Digite a hora em números inteiros: ')
 
-# if hora.isdigit():
+if hora.isdigit():
 
-#     hora_int = int(hora)
+    hora_int = int(hora)
 
-#     if hora_int < 12 :
-#         print('Bom dia.')
-#     elif hora_int < 18 :
-#         print('Boa tarde.')
-#     else:
-#         print('Boa noite.')
+    if hora_int < 12:
+        print('Bom dia.')
+    elif hora_int < 18:
+        print('Boa tarde.')
+    else:
+        print('Boa noite.')
 
-# else:
-#     print('Você não digitou um número inteiro.')   
+else:
+    print('Você não digitou um número inteiro.')
 
 '''
 
