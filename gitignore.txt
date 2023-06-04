@@ -4,6 +4,7 @@ chromedriver
 mysql_206
 .env
 .venv
+venv
 aula207_ola_django/static_files
 
 # Byte-compiled / optimized / DLL files
