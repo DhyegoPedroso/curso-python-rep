@@ -16,7 +16,3 @@ def Print(str):
 
 
 Print("Teste do metodo")
-
-teste = "teste"
-
-num = 1 + 1
