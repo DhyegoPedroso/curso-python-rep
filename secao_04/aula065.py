@@ -11,8 +11,18 @@ Por padrão, funções Python retornam None (nada).
 """
 
 
-def Print(str):
-    print(str)
+# def imprimir(a, b, c):
+#     print(a, b, c)
 
 
-Print("Teste do metodo")
+# imprimir(1, 2, 3)
+# imprimir(4, 5, 6)
+
+
+def saudacao(nome="Sem nome"):
+    print(f"Olá, {nome}!")
+
+
+saudacao("Dhyego Pedroso")
+saudacao("Enzo")
+saudacao()
