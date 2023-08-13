@@ -13,7 +13,8 @@ import os
 lista_compras = []
 
 while True:
-    opcao = input(f"Selecione uma opção\n" "[i]nserir [a]pagar [l]istar: ").lower()
+    opcao = input("Selecione uma opção\n" 
+                  "[i]nserir [a]pagar [l]istar: ").lower()
 
     if opcao.startswith("i"):
         os.system("cls")
