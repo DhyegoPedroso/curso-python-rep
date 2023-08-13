@@ -1,6 +1,25 @@
 {
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter"
+    // 
+    // Inicio das configurações do code-runner
+    // 
+    "code-runner.runInTerminal": true,
+    "code-runner.ignoreSelection": true,
+    "code-runner.executorMap": {
+      "python": "clear ; python -u",
     },
-    "python.formatting.provider": "none"
-}
+    // 
+    // Fim das configurações do code-runner
+    // 
+    "explorer.compactFolders": false,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Monokai++ Unified",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.hover.enabled": true,
+    "editor.fontFamily": "Powerline, Consolas, 'Dank Mono', 'Source Code Pro', 'Fira Code', Menlo, 'Inconsolata', 'Droid Sans Mono', 'DejaVu Sans Mono', 'Ubuntu Mono', 'Courier New', Courier, Monaco, monospace",
+    "editor.fontLigatures": false,
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.python"
+    },
+  }

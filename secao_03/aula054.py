@@ -17,7 +17,7 @@ while True:
                   "[i]nserir [a]pagar [l]istar: ").lower()
 
     if opcao.startswith("i"):
-        os.system("cls")
+        os.system("clear")
         lista_compras.append(input("Produto: "))
 
     elif opcao.startswith("a"):
@@ -29,7 +29,7 @@ while True:
             print("Índice não existe na lista.")
 
     elif opcao.startswith("l"):
-        os.system("cls")
+        os.system("clear")
 
         if len(lista_compras) == 0:
             print("Nada para listar")
